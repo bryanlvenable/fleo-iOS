@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9304D2721BB250C700D63984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9304D2711BB250C700D63984 /* AppDelegate.swift */; };
+		9304D2741BB250C700D63984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9304D2731BB250C700D63984 /* ViewController.swift */; };
+		9304D2771BB250C700D63984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9304D2751BB250C700D63984 /* Main.storyboard */; };
+		9304D2791BB250C700D63984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9304D2781BB250C700D63984 /* Assets.xcassets */; };
+		9304D27C1BB250C700D63984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9304D27A1BB250C700D63984 /* LaunchScreen.storyboard */; };
+		9304D2871BB250C700D63984 /* fleoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9304D2861BB250C700D63984 /* fleoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9304D2831BB250C700D63984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9304D2661BB250C700D63984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9304D26D1BB250C700D63984;
+			remoteInfo = fleo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9304D26E1BB250C700D63984 /* fleo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fleo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9304D2711BB250C700D63984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9304D2731BB250C700D63984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9304D2761BB250C700D63984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9304D2781BB250C700D63984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9304D27B1BB250C700D63984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9304D27D1BB250C700D63984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9304D2821BB250C700D63984 /* fleoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fleoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9304D2861BB250C700D63984 /* fleoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fleoTests.swift; sourceTree = "<group>"; };
+		9304D2881BB250C700D63984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9304D26B1BB250C700D63984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9304D27F1BB250C700D63984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9304D2651BB250C700D63984 = {
+			isa = PBXGroup;
+			children = (
+				9304D2701BB250C700D63984 /* fleo */,
+				9304D2851BB250C700D63984 /* fleoTests */,
+				9304D26F1BB250C700D63984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9304D26F1BB250C700D63984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9304D26E1BB250C700D63984 /* fleo.app */,
+				9304D2821BB250C700D63984 /* fleoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9304D2701BB250C700D63984 /* fleo */ = {
+			isa = PBXGroup;
+			children = (
+				9304D2711BB250C700D63984 /* AppDelegate.swift */,
+				9304D2731BB250C700D63984 /* ViewController.swift */,
+				9304D2751BB250C700D63984 /* Main.storyboard */,
+				9304D2781BB250C700D63984 /* Assets.xcassets */,
+				9304D27A1BB250C700D63984 /* LaunchScreen.storyboard */,
+				9304D27D1BB250C700D63984 /* Info.plist */,
+			);
+			path = fleo;
+			sourceTree = "<group>";
+		};
+		9304D2851BB250C700D63984 /* fleoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9304D2861BB250C700D63984 /* fleoTests.swift */,
+				9304D2881BB250C700D63984 /* Info.plist */,
+			);
+			path = fleoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9304D26D1BB250C700D63984 /* fleo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9304D28B1BB250C700D63984 /* Build configuration list for PBXNativeTarget "fleo" */;
+			buildPhases = (
+				9304D26A1BB250C700D63984 /* Sources */,
+				9304D26B1BB250C700D63984 /* Frameworks */,
+				9304D26C1BB250C700D63984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fleo;
+			productName = fleo;
+			productReference = 9304D26E1BB250C700D63984 /* fleo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9304D2811BB250C700D63984 /* fleoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9304D28E1BB250C700D63984 /* Build configuration list for PBXNativeTarget "fleoTests" */;
+			buildPhases = (
+				9304D27E1BB250C700D63984 /* Sources */,
+				9304D27F1BB250C700D63984 /* Frameworks */,
+				9304D2801BB250C700D63984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9304D2841BB250C700D63984 /* PBXTargetDependency */,
+			);
+			name = fleoTests;
+			productName = fleoTests;
+			productReference = 9304D2821BB250C700D63984 /* fleoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9304D2661BB250C700D63984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bryan Venable";
+				TargetAttributes = {
+					9304D26D1BB250C700D63984 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9304D2811BB250C700D63984 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9304D26D1BB250C700D63984;
+					};
+				};
+			};
+			buildConfigurationList = 9304D2691BB250C700D63984 /* Build configuration list for PBXProject "fleo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9304D2651BB250C700D63984;
+			productRefGroup = 9304D26F1BB250C700D63984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9304D26D1BB250C700D63984 /* fleo */,
+				9304D2811BB250C700D63984 /* fleoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9304D26C1BB250C700D63984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9304D27C1BB250C700D63984 /* LaunchScreen.storyboard in Resources */,
+				9304D2791BB250C700D63984 /* Assets.xcassets in Resources */,
+				9304D2771BB250C700D63984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9304D2801BB250C700D63984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9304D26A1BB250C700D63984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9304D2741BB250C700D63984 /* ViewController.swift in Sources */,
+				9304D2721BB250C700D63984 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9304D27E1BB250C700D63984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9304D2871BB250C700D63984 /* fleoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9304D2841BB250C700D63984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9304D26D1BB250C700D63984 /* fleo */;
+			targetProxy = 9304D2831BB250C700D63984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9304D2751BB250C700D63984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9304D2761BB250C700D63984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9304D27A1BB250C700D63984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9304D27B1BB250C700D63984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9304D2891BB250C700D63984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9304D28A1BB250C700D63984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9304D28C1BB250C700D63984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fleo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.fleo.fleo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9304D28D1BB250C700D63984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fleo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.fleo.fleo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9304D28F1BB250C700D63984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fleoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.fleo.fleoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fleo.app/fleo";
+			};
+			name = Debug;
+		};
+		9304D2901BB250C700D63984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fleoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.fleo.fleoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fleo.app/fleo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9304D2691BB250C700D63984 /* Build configuration list for PBXProject "fleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9304D2891BB250C700D63984 /* Debug */,
+				9304D28A1BB250C700D63984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9304D28B1BB250C700D63984 /* Build configuration list for PBXNativeTarget "fleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9304D28C1BB250C700D63984 /* Debug */,
+				9304D28D1BB250C700D63984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9304D28E1BB250C700D63984 /* Build configuration list for PBXNativeTarget "fleoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9304D28F1BB250C700D63984 /* Debug */,
+				9304D2901BB250C700D63984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9304D2661BB250C700D63984 /* Project object */;
+}
